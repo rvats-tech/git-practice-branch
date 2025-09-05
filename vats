@@ -28,4 +28,4 @@ resource "aws_lb_listener" "back_end" {
     target_group_arn = aws_lb_target_group.back_end.arn
   }
   depends_on = [aws_lb_target_group.back_end]
-}
+.....................some changes done'..........}
